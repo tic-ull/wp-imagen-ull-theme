@@ -95,46 +95,36 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), '4.1.0', 'all' );
 });
 
-add_filter( 'wp_nav_menu_items' , function( $items, $args ) {
-	$html = new DOMDocument();
-	$html->loadHTML('<?xml version="1.0" encoding="'.get_bloginfo('charset').'"?>' .$items );
-
-	foreach ($html->getElementsByTagName( 'li' ) as $item) {
-		if ( $item->hasAttribute( 'class' ) ) {
-			$classes = explode( ' ', $item->getAttribute( 'class' ) );
-
-			$before = true;
-			$fontawesome_classes = array();
-			$classes = array_filter( $classes, function( $class ) use ( &$before, &$fontawesome_classes ) {
-				if ( substr( $class, 0, 2 ) == 'fa' ) {
-					if ( $class == 'fa-after' ) {
-						$before = false;
-					} elseif ( $class != 'fa' ) {
-						$fontawesome_classes[] = $class;
-					}
-					return false;
-                }
-				return true;
-			});
-
-			$item->setAttribute( 'class' , implode( ' ', $classes ) );
-			if ( !empty( $fontawesome_classes ) ) {
-				$fontawesome_classes[] = 'fa';
-				$icon = $html->createElement( 'i' );
-				$icon->setAttribute( 'class', implode( ' ', $fontawesome_classes ) );
-				$space = $html->createTextNode( ' ' );
-				$link = $item->firstChild;			// etiqueta <a>
-				if( $before ){
-					$link->insertBefore($space, $link->firstChild);
-					$link->insertBefore($icon, $link->firstChild);
-				} else {
-					$link->appendChild($space);
-					$link->appendChild($icon);
-				}
+add_filter( 'nav_menu_link_attributes' , function( $atts, $item, $args ) {
+	$before = true;
+	$fontawesome_classes = array();
+	foreach ( $item->classes as $class ) {
+		if ( substr( $class, 0, 2 ) == 'fa' ) {
+			if ( $class == 'fa-after' ) {
+				$before = false;
+			} elseif ( $class != 'fa' ) {
+				$fontawesome_classes[] = $class;
 			}
 		}
 	}
-	return $html->saveHTML();
-}, 10, 2)
+
+	if ( !empty( $fontawesome_classes ) ) {
+		$fontawesome_classes[] = 'fa';
+		$classes = implode( ' ', $fontawesome_classes );
+		if( $before ){
+			$args->link_before = '<i class="'.$classes.'"></i>&nbsp;';
+		} else {
+			$args->link_after = '&nbsp;<i class="'.$classes.'"></i>';
+		}
+	}
+	return $atts;
+}, 10, 3);
+
+// Quitar las clases fa-(nombre del icono) de los elementos <li>
+add_filter( 'nav_menu_css_class' , function( $classes, $item, $args ) {
+	return array_filter( $classes, function( $class ) {
+		return ( substr( $class, 0, 2 ) == 'fa' ) ? false : true;
+	});
+}, 10, 3);
 
 ?>
