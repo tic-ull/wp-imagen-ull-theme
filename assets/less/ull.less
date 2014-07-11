@@ -1,3 +1,15 @@
+/* 
+   Estilos de la imagen corporativa de la ULL
+   http://static.ull.es/v3/docs/
+*/
+
+/* Imágenes */
+@logo-ull:                  ~"//static.ull.es/v3/dist/img/logo-ull.png";
+@logo-ull2x:                ~"//static.ull.es/v3/dist/img/logo-ull@2x.png";
+@login-background-image:    ~"//static.ull.es/v3/dist/img/bgloginull.png";
+
+/**/
+
 html {
     position: relative;
     min-height: 100%;
@@ -101,6 +113,7 @@ i.fa {
 
 .navbar-ull {
     background: #7A3B7A;
+    z-index: 2000;
 }
 
 .navbar-app {
@@ -112,7 +125,7 @@ i.fa {
 }
 
 .navbar-ull .navbar-brand {
-    background: url(../img/logo-ull.png) 0 0 no-repeat;
+    background: url("@{logo-ull}") 0 0 no-repeat;
     display: block;
     height: 24px;
     margin: 8px 0 0;
@@ -129,16 +142,16 @@ i.fa {
 
 @media only screen and (-Webkit-min-device-pixel-ratio:1.5), only screen and (-moz-min-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:3/2), only screen and (min-device-pixel-ratio:1.5) {
     .navbar-ull .navbar-brand {
-        background-image: url(../img/logo-ull@2x.png);
+        background-image: url("@{logo-ull2x}");
     }
 }
 
 .navbar-app .nav>li>a {
-    color: #373737;
+    color: #373737 !important;
 }
 
 .navbar-ull .nav>li>a {
-    color: #E4D8E4;
+    color: #E4D8E4 !important;
 }
 
 .navbar-default .nav>li>a {
@@ -223,20 +236,21 @@ a.btn-signin i.fa, a.btn-signout i.fa {
     padding: 0;
 }
 
-.navbar-app .breadcrumb {
+.navbar-app .breadcrumb, .navbar-app .navbar-brand {
     margin: 0;
     padding: 0;
     border: 0;
     border-radius: 0;
     background: 0 0;
     line-height: 40px;
+    height: 40px;
 }
 
 .navbar-app {
     margin-bottom: 15px;
 }
 
-.navbar-app .breadcrumb li:first-child, .navbar-app .breadcrumb li:first-child a {
+.navbar-app .breadcrumb li:first-child, .navbar-app .breadcrumb li:first-child a, .navbar-app .navbar-brand, .navbar-app a.navbar-brand {
     color: #7A3B7A;
     font-size: 15px;
 }
@@ -419,7 +433,7 @@ body li.divider {
 }
 
 .bg-imglogin {
-    background-image: url(../img/bgloginull.png);
+    background-image: url("@{login-background-image}");
     background-position: 0 100%;
     background-repeat: no-repeat;
 }
@@ -713,4 +727,3 @@ dl.dl-horizontal {
     overflow: hidden;
     margin-top: 10px;
 }
-
