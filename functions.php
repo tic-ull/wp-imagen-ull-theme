@@ -94,12 +94,17 @@ add_action( 'shoestrap_pre_top_bar', function() {
  * La barra original del tema se usará como barra contextual del servicio.
  */ 
 add_filter( 'shoestrap_navbar_class', function( $class, $context = null ) {
+	$class = 'navbar navbar-default';
 	if ( $context == 'ull-bar' ) {
 		return $class . ' navbar-ull';
 	} else {
 		return $class . ' navbar-app';
 	}
-}, 30, 2 );
+}, 11, 2 );
+
+add_filter( 'shoestrap_nav_class', function ($class ) {
+	return 'navbar-nav nav navbar-right';
+}, 11);
 
 /*
  * Soporte de Font Awesome en los menús de navegación.
