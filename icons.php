@@ -17,11 +17,21 @@ define( 'IMAGEN_ULL_APPLEICON_57',	'//static.ull.es/v3/dist/img/apple-touch-icon
 
 function imagen_ull_font_awesome_icons( $icon ) {
 	switch ( $icon ) {
+		case 'facebook':
+		case 'twitter':
+		case 'github':
+		case 'linkedin':
+		case 'instagram':
+		case 'pinterest':
+		case 'vimeo':
+		case 'youtube':
+			return $icon-'square';
+
 		case 'googleplus':
 			return 'google-plus-square';
 
 		default:
-			return $icon-'square';
+			return $icon;
 	}
 }
 
