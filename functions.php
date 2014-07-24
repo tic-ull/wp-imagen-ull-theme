@@ -82,6 +82,14 @@ add_filter( 'shoestrap_module_menus_options_modifier', image_ull_make_default_op
 // Usar el CDN de Google para JQuery
 add_filter( 'shoestrap_module_advanced_options_modifier', image_ull_make_default_option_modifier( 'jquery_cdn_toggler', 1 ) );
 
+add_filter( 'shoestrap_container_class', function() {
+	return "container-fluid";
+}, 11);
+
+add_filter( 'shoestrap_navbar_container_class', function() {
+	return "container-fluid";
+}, 11);
+
 /*
  * Añadir la barra principal ULL.
  */
