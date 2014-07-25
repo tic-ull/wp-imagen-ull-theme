@@ -19,6 +19,10 @@ add_filter( 'shoestrap_compiler', function( $bootstrap ) {
 add_filter( 'shoestrap_module_layout_options_modifier',
 			imagen_ull_make_default_option_modifier( 'site_style', 'fluid' ) );
 
+// Colocar la barra lateral a la izquierda
+add_filter( 'shoestrap_module_layout_options_modifier',
+			imagen_ull_make_default_option_modifier( 'layout', '2' ) );
+
 /*
  * Configuración de las barras de navegación.
  */

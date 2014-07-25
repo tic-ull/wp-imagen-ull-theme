@@ -47,9 +47,15 @@ dd {
     text-align: justify;
 }
 
-.container-fluid {
+.fluid {
     max-width: 1600px;
     margin: 0 auto;
+
+    /* Para que las cabeceras y el pié se extiendan en horizontal al máximo
+       porque el tema usa la clase .fluid en <body> */
+    body& {
+        max-width: none;
+    }
 }
 
 i.fa {
@@ -120,7 +126,7 @@ i.fa {
     background: #EEE;
 }
 
-.navbar>.container-fluid .navbar-brand {
+.navbar>.fluid .navbar-brand {
     margin-left: 0;
 }
 
@@ -135,7 +141,7 @@ i.fa {
     background-size: 130px 24px;
 }
 
-#footer .container-fluid .row, .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+#footer .fluid .row, .fluid>.navbar-collapse, .fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin-right: -10px;
     margin-left: -10px;
 }
@@ -575,7 +581,7 @@ body li.divider {
     text-align: center;
 }
 
-.container-fluid.carousel-container-full {
+.fluid.carousel-container-full {
     max-width: none;
     margin-top: -15px;
 }
