@@ -210,4 +210,14 @@ add_action( 'wp_head', function() {
 add_filter( 'shoestrap_module_advanced_options_modifier',
 	imagen_ull_make_default_option_modifier( 'jquery_cdn_toggler', 1 ) );
 
+/*
+ * Traducción y localización
+ */
+
+add_filter( 'shoestrap_module_socials_options_modifier',
+	imagen_ull_make_default_option_modifier( 'social_sharing_text', 'Compartir' ) );
+
+add_filter( 'shoestrap_module_blog_modifier',
+	imagen_ull_make_default_option_modifier( 'post_excerpt_link_text', 'Leer más' ) );
+
 ?>
