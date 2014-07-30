@@ -8,6 +8,8 @@ require_once( dirname(__FILE__) . '/utils.php' );
 
 add_filter( 'shoestrap_compiler', function( $bootstrap ) {
 	return $bootstrap . '
+	@import "' . get_stylesheet_directory() . '/assets/less/font-awesome-4.1.0/font-awesome.less";
+	@import "' . get_stylesheet_directory() . '/assets/less/elusive.less";
 	@import "' . get_stylesheet_directory() . '/assets/less/ull.less";';
 }, 30);
 
@@ -76,11 +78,6 @@ add_filter( 'nav_menu_css_class' , function( $classes, $item, $args ) {
 	});
 }, 10, 3);
 
-// Incluir los estilos de Font Awesome desde el CDN de Bootstrap
-add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), '4.1.0', 'all' );
-});
-
 /*
  * Configuración de widgets.
  *
@@ -139,13 +136,22 @@ add_filter( 'walker_nav_menu_start_el', function( $item_output, $item, $depth, $
 		$item_output .= $args->link_before . $item->description . $args->link_after;
 		$item_output .= "</p></li>";
 	} elseif ( strcasecmp( $item->attr_title, 'dropdown-social') == 0 && $depth === 1 ) {
-		$networks = imagen_ull_get_social_links();
+		global $ss_social;
+
+		// Clase base para los iconos que va a ser usados.
+		$baseclass  = 'icon el-icon-';
+
+		// Array de las redes sociales disponibles.
+		$networks = $ss_social->get_social_links();
+
 		$item_output = $indent . '<ul class="rrss text-muted list-inline">';
 		if ( ! is_null( $networks ) ) {
 			foreach ( $networks as $network ) {
 				// Comprobar si se ha definido la red social
 				if ( isset( $network['url'] ) && ! empty( $network['url'] ) ) {
-					$item_output .= '<li><a target="_blank" href="' . $network['url'] . '"><i class="fa fa-' . $network['icon'] . '"></i></a></li>';
+					$item_output .= '<li><a target="_blank" href="' . $network['url'] . '">';
+					$item_output .= '<i class="' . $baseclass . $network['icon'] . '"></i>';
+					$item_output .= '</a></li>';
 				}
 			}
 		}
