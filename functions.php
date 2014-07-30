@@ -12,7 +12,7 @@ add_filter( 'shoestrap_compiler', function( $bootstrap ) {
 }, 30);
 
 /*
- * Configuración del Layout.
+ * Configuración del layout.
  */
 
 // Activar por defecto el estilo 'fluid'
@@ -22,6 +22,10 @@ add_filter( 'shoestrap_module_layout_options_modifier',
 // Colocar la barra lateral a la izquierda
 add_filter( 'shoestrap_module_layout_options_modifier',
 			imagen_ull_make_default_option_modifier( 'layout', '2' ) );
+
+// Activar el uso de componentes 'panel' en los widgets
+add_filter( 'shoestrap_module_layout_advanced_options_modifier',
+			imagen_ull_make_default_option_modifier( 'widgets_mode', '0' ) );
 
 /*
  * Configuración de las barras de navegación.
@@ -41,11 +45,11 @@ add_filter( 'shoestrap_navbar_class', function( $class, $context = null ) {
 	} else {
 		return $class . ' navbar-app';
 	}
-}, 11, 2 );
+}, 20, 2 );
 
 add_filter( 'shoestrap_nav_class', function ($class ) {
 	return 'navbar-nav nav navbar-right';
-}, 11);
+}, 20);
 
 // Desactivar por defecto el formulario de búsqueda de la barra
 // contextual del servicio.
@@ -59,50 +63,57 @@ add_filter( 'shoestrap_module_menus_options_modifier',
  * de menú correspondiente.
  */
 
-// Incluir los estilos de Font Awesome desde el CDN de Bootstrap
-add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), '4.1.0', 'all' );
-});
-
-function imagen_ull_nav_menu_font_awesome_icon( $item, $args ) {
-	$before = true;
-	$fontawesome_classes = array();
-	foreach ( $item->classes as $class ) {
-		if ( substr( $class, 0, 2 ) == 'fa' ) {
-			if ( $class == 'fa-after' ) {
-				$before = false;
-			} elseif ( $class != 'fa' ) {
-				$fontawesome_classes[] = $class;
-			}
-		}
-	}
-
-	if ( !empty( $fontawesome_classes ) ) {
-		$fontawesome_classes[] = 'fa';
-		$classes = implode( ' ', $fontawesome_classes );
-		if( $before ){
-			$args->link_before = '<i class="'.$classes.'"></i>&nbsp;';
-		} else {
-			$args->link_after = '&nbsp;<i class="'.$classes.'"></i>';
-		}
-	} else {
-		// Necesario por el valor de $args se preserva entre invocaciones
-		$args->link_before = '';
-		$args->link_after = '';
-	}
-}
-
 add_filter( 'nav_menu_link_attributes' , function( $atts, $item, $args ) {
-	imagen_ull_nav_menu_font_awesome_icon( $item, $args );
+	imagen_ull_process_font_awesome_classes( $item->classes, $args );
 	return $atts;
 }, 10, 3);
 
-// Quitar las clases fa-(nombre del icono) de los elementos <li>
+// Quitar las clases fa-(nombre del icono) de los elementos <li> ya que
+// no se puede hacer desde el filtro 'nav_menu_link_attributes'.
 add_filter( 'nav_menu_css_class' , function( $classes, $item, $args ) {
 	return array_filter( $classes, function( $class ) {
 		return ( substr( $class, 0, 2 ) == 'fa' ) ? false : true;
 	});
 }, 10, 3);
+
+// Incluir los estilos de Font Awesome desde el CDN de Bootstrap
+add_action( 'wp_enqueue_scripts', function() {
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), '4.1.0', 'all' );
+});
+
+/*
+ * Configuración de widgets.
+ *
+ * - Conviene usar el plugin Widget CSS Classes para incorporar iconos
+ *   y colores a las cabeceras de los widgets:
+ *
+ *   http://cleverness.org/plugins/widget-css-classes-plugin/
+ */
+
+add_filter( 'shoestrap_widgets_class', function( $class ) {
+	return $class . ' panel-ull';
+}, 20);
+
+// add_filter( 'shoestrap_widgets_before_title', function( $before ) {
+// 	return $before . '<h3 class="panel-title">';
+// }, 20);
+// 
+// add_filter( 'shoestrap_widgets_after_title', function( $after ) {
+// 	return '</h3>' . $after;
+// }, 20);
+
+add_filter( 'dynamic_sidebar_params', function( $params ) {
+	$pattern = '/class=[\'"]([^\'"]*)[\'"]/';
+	$params[0]['before_widget'] = preg_replace_callback( $pattern, function( $matches ) use ( &$params ) {
+		$args = new stdClass();
+		$classes = explode( ' ', $matches[1] );
+		$classes = imagen_ull_process_font_awesome_classes( $classes, $args );
+		$params[0]['before_title'] .= '<h3 class="panel-title">' . $args->link_before;
+		$params[0]['after_title'] = $args->link_after . '</h3>'. $params[0]['after_title'];
+		return 'class="' . implode( ' ', $classes ) . '"';
+	}, $params[0]['before_widget'] );
+	return $params;
+}, 20);
 
 /*
  * Soporte de tipos especiales de elementos en los menús de navegación.
@@ -114,12 +125,13 @@ add_filter( 'nav_menu_css_class' , function( $classes, $item, $args ) {
  * - Para incorporar una entrada con enlaces a las redes sociales, simplemente
  *   añadir el atributo dropdown-social al elemento de menú.
  */
+
 add_filter( 'walker_nav_menu_start_el', function( $item_output, $item, $depth, $args ) {
 	$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 	if ( strcasecmp( $item->attr_title, 'dropdown-text') == 0 && $depth === 1 ) {
 //		No hace falta invocar:
 //
-//		imagen_ull_nav_menu_font_awesome_icon( $item, $args );
+//		imagen_ull_process_font_awesome_classes( $item->classes, $args );
 //
 //		para soportar los iconos de Font Awesome si ya se hizo previamente
 //		en el filtro 'nav_menu_link_attributes'.
@@ -153,6 +165,7 @@ add_filter( 'wp_setup_nav_menu_item', function( $menu_item ) {
  * Añadir los iconos corporativos a la cabecera, si no han sido especificados
  * en la configuración del tema.
  */
+
 add_action( 'wp_head', function() {
 	global $ss_settings;
 
@@ -176,6 +189,7 @@ add_action( 'wp_head', function() {
 /*
  * Usar por defecto el CDN de Google para JQuery.
  */
+
 add_filter( 'shoestrap_module_advanced_options_modifier',
 	imagen_ull_make_default_option_modifier( 'jquery_cdn_toggler', 1 ) );
 

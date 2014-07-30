@@ -1,5 +1,44 @@
 <?php
-require_once( dirname(__FILE__) . '/icons.php' );
+
+/**
+ * Procesar las clases de los iconos Font Awesome.
+ *
+ * @param array $classes Clases entre las que buscar las de Font Awesome.
+ * @param object $args Objeto de datos con el resultado.
+ * @return array El resto de clases no relacionadas con Font Awesome.
+ */
+
+function imagen_ull_process_font_awesome_classes( $classes, $args ) {
+	$before = true;
+	$fontawesome_classes = array();
+	$other_classes = array();
+	foreach ( $classes as $class ) {
+		if ( substr( $class, 0, 2 ) == 'fa' ) {
+			if ( $class == 'fa-after' ) {
+				$before = false;
+			} elseif ( $class != 'fa' ) {
+				$fontawesome_classes[] = $class;
+			}
+		} else {
+			$other_classes[] = $class;
+		}
+	}
+
+	$args->link_before = '';
+	$args->link_after = '';
+
+	if ( !empty( $fontawesome_classes ) ) {
+		$fontawesome_classes[] = 'fa';
+		$class_names = implode( ' ', $fontawesome_classes );
+		if( $before ){
+			$args->link_before = '<i class="'.$class_names.'"></i>&nbsp;';
+		} else {
+			$args->link_after = '&nbsp;<i class="'.$class_names.'"></i>';
+		}
+	}
+
+	return $other_classes;
+}
 
 /*
  * Obtener los links a las redes sociales especificados en la configuración
