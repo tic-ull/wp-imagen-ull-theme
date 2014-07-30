@@ -103,15 +103,15 @@ add_filter( 'shoestrap_widgets_class', function( $class ) {
 // }, 20);
 
 add_filter( 'dynamic_sidebar_params', function( $params ) {
+	$args = new stdClass();
 	$pattern = '/class=[\'"]([^\'"]*)[\'"]/';
-	$params[0]['before_widget'] = preg_replace_callback( $pattern, function( $matches ) use ( &$params ) {
-		$args = new stdClass();
+	$params[0]['before_widget'] = preg_replace_callback( $pattern, function( $matches ) use ( &$args ) {
 		$classes = explode( ' ', $matches[1] );
 		$classes = imagen_ull_process_font_awesome_classes( $classes, $args );
-		$params[0]['before_title'] .= '<h3 class="panel-title">' . $args->link_before;
-		$params[0]['after_title'] = $args->link_after . '</h3>'. $params[0]['after_title'];
 		return 'class="' . implode( ' ', $classes ) . '"';
 	}, $params[0]['before_widget'] );
+	$params[0]['before_title'] .= '<h3 class="panel-title">' . $args->link_before;
+	$params[0]['after_title'] = $args->link_after . '</h3>'. $params[0]['after_title'];
 	return $params;
 }, 20);
 
