@@ -45,6 +45,22 @@ add_filter( 'shoestrap_module_layout_advanced_options_modifier',
 			imagen_ull_make_default_option_modifier( 'widgets_mode', '0' ) );
 
 /*
+ * Configuración de la tipografía.
+ */
+
+add_filter ( 'shoestrap_module_typrography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_base', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '14px',
+				'line-height'	=> '20px',
+				'google'        => 'false',
+				'weight'        => 'inherit',
+				'color'         => '#333333',
+				'font-style'    => 400,
+				'update_weekly' => true
+)));
+
+/*
  * Configuración de las barras de navegación.
  */
 
