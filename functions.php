@@ -48,16 +48,82 @@ add_filter( 'shoestrap_module_layout_advanced_options_modifier',
  * Configuración de la tipografía.
  */
 
-add_filter ( 'shoestrap_module_typrography_options_modifier',
+add_filter ( 'shoestrap_module_typography_options_modifier',
 			imagen_ull_make_default_option_modifier( 'font_base', array(
 				'font-family'   => 'Arial, Helvetica, sans-serif',
 				'font-size'     => '14px',
 				'line-height'	=> '20px',
 				'google'        => 'false',
-				'weight'        => 'inherit',
 				'color'         => '#333333',
-				'font-style'    => 400,
+				'font-weight'   => 400,
+				'font-style'    => 'normal',
 				'update_weekly' => true
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h1', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '257%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 500,
+				'font-style'    => 'normal',
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h2', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '214%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 500,
+				'font-style'    => 'normal',
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h3', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '171%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 500,
+				'font-style'    => 'normal',
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h4', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '129%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 500,
+				'font-style'    => 'normal',
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h5', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '100%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 'bold',
+				'font-style'    => 'normal',
+)));
+
+add_filter ( 'shoestrap_module_typography_options_modifier',
+			imagen_ull_make_default_option_modifier( 'font_h6', array(
+				'font-family'   => 'Arial, Helvetica, sans-serif',
+				'font-size'     => '86%',
+				'line-height'	=> '110%',
+				'google'        => 'false',
+				'color'         => '#333333',
+				'font-weight'   => 500,
+				'font-style'    => 'normal',
 )));
 
 /*
