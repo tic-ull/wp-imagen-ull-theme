@@ -1,5 +1,4 @@
 <?php
-require_once( dirname(__FILE__) . '/icons.php' );
 require_once( dirname(__FILE__) . '/utils.php' );
 
 /*
