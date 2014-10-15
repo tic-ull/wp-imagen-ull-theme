@@ -208,6 +208,14 @@ add_filter( 'dynamic_sidebar_params', function( $params ) {
 	return $params;
 }, 20);
 
+// Ajustar las clases de los widgets Custom Menu
+add_filter( 'wp_nav_menu_args', function( $args ) {
+	if ( ! isset( $args['theme_location']) || $args['theme_location'] == '' ) {
+		$args['menu_class'] = 'nav nav-pills nav-stacked';
+	}
+	return $args;
+});
+
 /*
  * Soporte de tipos especiales de elementos en los menús de navegación.
  *
@@ -259,8 +267,8 @@ add_filter( 'walker_nav_menu_start_el', function( $item_output, $item, $depth, $
 // Pemitir HTML en las descripciones de los elementos de menú
 remove_filter( 'nav_menu_description', 'strip_tags' );
 add_filter( 'wp_setup_nav_menu_item', function( $menu_item ) {
-     $menu_item->description = apply_filters( 'nav_menu_description', $menu_item->post_content );
-     return $menu_item;
+    $menu_item->description = apply_filters( 'nav_menu_description', $menu_item->post_content );
+    return $menu_item;
 });
 
 /*
