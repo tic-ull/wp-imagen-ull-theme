@@ -51,10 +51,15 @@ dd {
     max-width: 1600px;
     margin: 0 auto;
 
+    padding-right: 15px;
+    padding-left: 15px;
+
     /* Para que las cabeceras y el pié se extiendan en horizontal al máximo
        porque el tema usa la clase .fluid en <body> */
     body& {
         max-width: none;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 
