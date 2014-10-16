@@ -304,6 +304,13 @@ add_filter( 'shoestrap_module_advanced_options_modifier',
 	imagen_ull_make_default_option_modifier( 'jquery_cdn_toggler', 1 ) );
 
 /*
+ * Desactivar por defecto la barra de administración.
+ */
+
+add_filter( 'shoestrap_module_advanced_options_modifier',
+	imagen_ull_make_default_option_modifier( 'advanced_wordpress_disable_admin_bar_toggle', 0 ) );
+
+/*
  * Traducción y localización
  */
 
