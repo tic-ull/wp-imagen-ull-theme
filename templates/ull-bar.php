@@ -25,8 +25,8 @@ if ( $navbar_toggle != 'none' ) {?>
 					</li>
 					<li class="dropdown"><a title="Contacto" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Contacto <span class="caret"></span></a>
 						<ul role="menu" class="dropdown-menu">
-							<li><a target="_blank" title="Página Web ULL" href="http://www.ull.es/"><i class="fa fa-envelope"></i> Página Web ULL</a></li>
-							<li><a target="_blank" title="Formulario de contacto" href="http://www.ull.es/view/institucional/ull/Contacto_3/es"><i class="fa fa-globe"></i> Formulario de contacto</a></li>
+							<li><a target="_blank" title="Página Web ULL" href="http://www.ull.es/"><i class="fa fa-globe"></i> Página Web ULL</a></li>
+							<li><a target="_blank" title="Formulario de contacto" href="http://www.ull.es/view/institucional/ull/Contacto_3/es"><i class="fa fa-list-alt"></i> Formulario de contacto</a></li>
 							<li><a target="_blank" title="Directorio telefónico" href="http://www.ull.es/view/institucional/ull/Telefonos/es"><i class="fa fa-phone"></i> Directorio telefónico</a></li>
 							<li class="divider"></li>
 							<li>
