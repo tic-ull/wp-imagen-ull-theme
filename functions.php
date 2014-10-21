@@ -333,6 +333,8 @@ add_filter( 'shoestrap_module_advanced_options_modifier',
  * Traducción y localización
  */
 
+load_theme_textdomain( 'shoestrap', get_stylesheet_directory() . '/languages/shoestrap' );
+
 add_filter( 'shoestrap_module_socials_options_modifier',
 	imagen_ull_make_default_option_modifier( 'social_sharing_text', 'Compartir' ) );
 

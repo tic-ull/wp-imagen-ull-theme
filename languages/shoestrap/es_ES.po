@@ -1,0 +1,3157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imagen ULL vdraft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-21 21:35:24+0000\n"
+"Last-Translator: jmtorres <jmtorres@ull.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: templates/searchform.php:3
+#@ imagen_ull
+msgid "Buscar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/404.php:7
+#@ shoestrap
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/404.php:11
+#@ shoestrap
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/404.php:13
+#@ shoestrap
+msgid "a mistyped address"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/404.php:14
+#@ shoestrap
+msgid "an out-of-date link"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/base.php:3
+#@ shoestrap
+msgid "Skip to main content"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/base.php:7
+#@ shoestrap
+msgid " You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:17
+#, php-format
+#@ bbpress
+msgid "Reply To: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:20
+#@ bbpress
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:24
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:43
+#@ bbpress
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:36
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:63
+#@ bbpress
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:44
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/meta.php:10
+#@ bbpress
+#@ shoestrap
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:56
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:111
+#@ bbpress
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:58
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:113
+#@ bbpress
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:69
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:124
+#@ bbpress
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:72
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:128
+#@ bbpress
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:84
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:139
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/functions-core.php:45
+#@ bbpress
+#@ default
+msgid "Submit"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:97
+#, php-format
+#@ bbpress
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:101
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:159
+#, php-format
+#@ bbpress
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:105
+#@ bbpress
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-reply.php:105
+#@ bbpress
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-search.php:15
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:88
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/searchform.php:3
+#@ bbpress
+#@ shoestrap
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-search.php:18
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:89
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/searchform.php:4
+#@ bbpress
+#@ shoestrap
+msgid "Search"
+msgstr "Buscar"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:29
+#, php-format
+#@ bbpress
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:31
+#, php-format
+#@ bbpress
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:31
+#@ bbpress
+msgid "Create New Topic"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:37
+#@ bbpress
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:53
+#, php-format
+#@ bbpress
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:71
+#@ bbpress
+msgid "Topic Tags:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:80
+#@ bbpress
+msgid "Forum:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:83
+#@ bbpress
+msgid "(No Forum)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:94
+#@ bbpress
+msgid "Topic Type:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:100
+#@ bbpress
+msgid "Topic Status:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:165
+#@ bbpress
+msgid "You cannot create new topics."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/form-topic.php:165
+#@ bbpress
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-forums.php:19
+#@ bbpress
+msgid "Forum"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-forums.php:20
+#@ bbpress
+msgid "Topics"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-forums.php:21
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-replies.php:26
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-topics.php:22
+#@ bbpress
+msgid "Replies"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-forums.php:21
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-topics.php:22
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:83
+#@ bbpress
+#@ buddypress
+msgid "Posts"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-forums.php:22
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-topics.php:23
+#@ bbpress
+msgid "Freshness"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-replies.php:18
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-search.php:23
+#@ bbpress
+msgid "Author"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-search-forum.php:13
+#, php-format
+#@ bbpress
+msgid "Last updated %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-search-forum.php:18
+#@ bbpress
+msgid "Forum: "
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-search-reply.php:18
+#@ bbpress
+msgid "In reply to: "
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-search.php:25
+#@ bbpress
+msgid "Search Results"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-single-reply.php:17
+#@ bbpress
+msgid "in reply to: "
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-single-topic.php:47
+#, php-format
+#@ bbpress
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-topics.php:20
+#@ bbpress
+msgid "Topic"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/loop-topics.php:21
+#@ bbpress
+msgid "Voices"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:31
+#, php-format
+#@ bbpress
+msgid "%s's Profile"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:31
+#@ bbpress
+msgid "Profile"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:37
+#, php-format
+#@ bbpress
+msgid "%s's Topics Started"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:37
+#@ bbpress
+msgid "Topics Started"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:43
+#, php-format
+#@ bbpress
+msgid "%s's Replies Created"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:43
+#@ bbpress
+msgid "Replies Created"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:50
+#, php-format
+#@ bbpress
+msgid "%s's Favorites"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:50
+#@ bbpress
+msgid "Favorites"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:60
+#, php-format
+#@ bbpress
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:60
+#@ bbpress
+msgid "Subscriptions"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:67
+#, php-format
+#@ bbpress
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/bbpress/user-details.php:67
+#@ bbpress
+msgid "Edit"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/activity-loop.php:28
+#@ buddypress
+msgid "Load More"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/activity-loop.php:42
+#@ buddypress
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:50
+#@ buddypress
+msgid "View Conversation"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:58
+#, php-format
+#@ buddypress
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:66
+#@ buddypress
+msgid "Mark as Favorite"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:66
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:360
+#@ buddypress
+#@ bbpress
+msgid "Favorite"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:70
+#@ buddypress
+msgid "Remove Favorite"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:102
+#@ buddypress
+msgid "Post"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/entry.php:102
+#@ buddypress
+msgid "Cancel"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:19
+#@ buddypress
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:19
+#, php-format
+#@ buddypress
+msgid "All Members <span class=\"badge\">%s</span>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:29
+#@ buddypress
+msgid "The activity of my friends only."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:29
+#, php-format
+#@ buddypress
+msgid "My Friends <span class=\"badge\">%s</span>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:41
+#@ buddypress
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:41
+#, php-format
+#@ buddypress
+msgid "My Groups <span class=\"badge\">%s</span>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:51
+#@ buddypress
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:51
+#, php-format
+#@ buddypress
+msgid "My Favorites <span class=\"badge\">%s</span>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:59
+#@ buddypress
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:59
+#@ buddypress
+msgid "Mentions"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:59
+#, php-format
+#@ buddypress
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:71
+#@ buddypress
+msgid "RSS Feed"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:71
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1656
+#@ buddypress
+#@ shoestrap
+msgid "RSS"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:76
+#@ buddypress
+msgid "Show:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:78
+#@ buddypress
+msgid "Everything"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:79
+#@ buddypress
+msgid "Updates"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:84
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:204
+#@ buddypress
+#@ shoestrap
+msgid "Comments"
+msgstr "Comentarios"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:90
+#@ buddypress
+msgid "Forum Topics"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:91
+#@ buddypress
+msgid "Forum Replies"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:97
+#@ buddypress
+msgid "New Groups"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:98
+#@ buddypress
+msgid "Group Memberships"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:104
+#@ buddypress
+msgid "Friendships"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:108
+#@ buddypress
+msgid "New Members"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/post-form.php:23
+#, php-format
+#@ buddypress
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/post-form.php:25
+#, php-format
+#@ buddypress
+msgid "What's new, %s?"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/post-form.php:35
+#@ buddypress
+msgid "Post Update"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/post-form.php:42
+#@ buddypress
+msgid "Post in"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/post-form.php:45
+#@ buddypress
+msgid "My Profile"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:51
+#@ shoestrap
+msgid "Categories: "
+msgstr "Categorías: "
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:56
+#@ shoestrap
+msgid "Tags: "
+msgstr "Etiquetas: "
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:59
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/content-single.php:23
+#@ shoestrap
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:76
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:77
+#@ shoestrap
+msgid ", "
+msgstr ", "
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:121
+#@ shoestrap
+msgid "Sticky"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:127
+#@ shoestrap
+msgid "Gallery"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:130
+#@ shoestrap
+msgid "Aside"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:133
+#@ shoestrap
+msgid "Link"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:136
+#@ shoestrap
+msgid "Image"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:139
+#@ shoestrap
+msgid "Quote"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:142
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1380
+#@ shoestrap
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:145
+#@ shoestrap
+msgid "Video"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:148
+#@ shoestrap
+msgid "Audio"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:151
+#@ shoestrap
+msgid "Chat"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:158
+#, php-format
+#@ shoestrap
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:171
+#, php-format
+#@ shoestrap
+msgid "Permalink to %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:196
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Blog.php:212
+#, php-format
+#@ shoestrap
+msgid "View all posts by %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Breadcrumbs.php:160
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Breadcrumbs.php:175
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Breadcrumbs.php:189
+#@ shoestrap
+msgid "Archives for"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Breadcrumbs.php:179
+#@ shoestrap
+msgid "You searched for"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Breadcrumbs.php:210
+#@ shoestrap
+msgid "Error 404: Page not found"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:26
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/widgets.php:12
+#@ shoestrap
+msgid "Primary Sidebar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:35
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/widgets.php:21
+#@ shoestrap
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:44
+#@ shoestrap
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:53
+#@ shoestrap
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:62
+#@ shoestrap
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Footer.php:71
+#@ shoestrap
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Header.php:23
+#@ shoestrap
+msgid "Header Area"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Jumbotron.php:24
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:673
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:678
+#@ shoestrap
+msgid "Jumbotron"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:228
+#@ shoestrap
+msgid "In-Navbar Widget Area"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:230
+#@ shoestrap
+msgid "This widget area will show up in your NavBars. This is most useful when using a static-left navbar."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:291
+#@ shoestrap
+msgid "Navbar Slide-Down Top"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:300
+#@ shoestrap
+msgid "Navbar Slide-Down 1"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:309
+#@ shoestrap
+msgid "Navbar Slide-Down 2"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:318
+#@ shoestrap
+msgid "Navbar Slide-Down 3"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Menus.php:327
+#@ shoestrap
+msgid "Navbar Slide-Down 4"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Nav_Menu_Widget.php:12
+#@ shoestrap
+msgid "Use this widget to add one of your custom menus as a widget."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Nav_Menu_Widget.php:13
+#@ shoestrap
+msgid "Custom Menu"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Nav_Menu_Widget.php:67
+#, php-format
+#@ shoestrap
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Nav_Menu_Widget.php:72
+#@ shoestrap
+msgid "Title:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Nav_Menu_Widget.php:76
+#@ shoestrap
+msgid "Select Menu:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:53
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/customizer.php:11
+#@ shoestrap
+msgid "General"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:57
+#@ shoestrap
+msgid "Setup Mode"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:58
+#@ shoestrap
+msgid "Select Easy or Advanced setup. Easy mode hides most options and allows for quick customization."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:62
+#@ shoestrap
+msgid "Easy"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:63
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1725
+#@ shoestrap
+msgid "Advanced"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:68
+#@ shoestrap
+msgid "Logo"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:69
+#@ shoestrap
+msgid "Upload a logo image using the media uploader, or define the URL directly."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:75
+#@ shoestrap
+msgid "Custom Favicon"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:76
+#@ shoestrap
+msgid "Upload a favicon image using the media uploader, or define the URL directly."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:83
+#@ shoestrap
+msgid "Apple Icon"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:84
+#@ shoestrap
+msgid "This will create icons for Apple iPhone ( 57px x 57px ), Apple iPhone Retina Version ( 114px x 114px ), Apple iPad ( 72px x 72px ) and Apple iPad Retina ( 144px x 144px ). Please note that for better results the image you upload should be at least 144px x 144px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:96
+#@ shoestrap
+msgid "Colors"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:103
+#@ shoestrap
+msgid "The primary color you select will also affect other elements on your site, such as table borders, widgets colors, input elements, dropdowns etc. The branding colors you select will be used throughout the site in various elements. One of the most important settings in your branding is your primary color, since this will be used more often."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:107
+#@ shoestrap
+msgid "Enable Gradients"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:108
+#@ shoestrap
+msgid "Enable gradients for buttons and the navbar. Default: Off."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:115
+#@ shoestrap
+msgid "Brand Colors: Primary"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:116
+#@ shoestrap
+msgid "Select your primary branding color. Also referred to as an accent color. This will affect various areas of your site, including the color of your primary buttons, link color, the background of some elements and many more."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:124
+#@ shoestrap
+msgid "Brand Colors: Success"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:125
+#@ shoestrap
+msgid "Select your branding color for success messages etc. Default: #5cb85c."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:134
+#@ shoestrap
+msgid "Brand Colors: Warning"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:135
+#@ shoestrap
+msgid "Select your branding color for warning messages etc. Default: #f0ad4e."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:144
+#@ shoestrap
+msgid "Brand Colors: Danger"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:145
+#@ shoestrap
+msgid "Select your branding color for success messages etc. Default: #d9534f."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:154
+#@ shoestrap
+msgid "Brand Colors: Info"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:155
+#@ shoestrap
+msgid "Select your branding color for info messages etc. It will also be used for the Search button color as well as other areas where it semantically makes sense to use an 'info' class. Default: #5bc0de."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:169
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/customizer.php:14
+#@ shoestrap
+msgid "Background"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:173
+#@ shoestrap
+msgid "General Background Color"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:174
+#@ shoestrap
+msgid "Select a background color for your site. Default: #ffffff."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:184
+#@ shoestrap
+msgid "Content Background"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:185
+#@ shoestrap
+msgid "Background for the content area. Colors also affect input areas and other colors."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:199
+#@ shoestrap
+msgid "Content Background Color Opacity"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:200
+#@ shoestrap
+msgid "Select the opacity of your background color for the main content area so that background images will show through. Please note that if you have added an image for your content background, changing the opacity to something other than 100 will result in your background image not being shown. If you need to add opacity to your content background image, you will need to do it by adding transparency to the PNG background image itself."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:213
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:232
+#@ shoestrap
+msgid "Layout"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:218
+#@ shoestrap
+msgid "Site Style"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:219
+#@ shoestrap
+msgid "Select the default site layout. Defaults to \"Wide\". Please note that if you select a non-responsive layout, you will have to trigger the compiler so that your changes take effect."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:224
+#@ shoestrap
+msgid "Static (Non-Responsive)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:225
+#@ shoestrap
+msgid "Wide"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:226
+#@ shoestrap
+msgid "Boxed"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:227
+#@ shoestrap
+msgid "Fluid"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:233
+#@ shoestrap
+msgid "Select main content and sidebar arrangement. Choose between 1, 2 or 3 column layout."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:247
+#@ shoestrap
+msgid "Primary Sidebar Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:248
+#@ shoestrap
+msgid "Select the width of the Primary Sidebar. Please note that the values represent grid columns. The total width of the page is 12 columns, so selecting 4 here will make the primary sidebar to have a width of 1/3 ( 4/12 ) of the total page width."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:261
+#@ shoestrap
+msgid "Secondary Sidebar Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:262
+#@ shoestrap
+msgid "Select the width of the Secondary Sidebar. Please note that the values represent grid columns. The total width of the page is 12 columns, so selecting 4 here will make the secondary sidebar to have a width of 1/3 ( 4/12 ) of the total page width."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:275
+#@ shoestrap
+msgid "Show sidebars on the frontpage"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:276
+#@ shoestrap
+msgid "OFF by default. If you want to display the sidebars in your frontpage, turn this ON."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:289
+#@ shoestrap
+msgid ""
+"Advanced layout options are not available when using the Easy setup mode.\n"
+"\t\t\t\t\t\t\tPlease switch to Anvanced Setup Mode from the \"General\" section."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:296
+#@ shoestrap
+msgid "Margin from top ( Works only in 'Boxed' mode )"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:297
+#@ shoestrap
+msgid "This will add a margin above the navbar. Useful if you've enabled the 'Boxed' mode above. Default: 0px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:309
+#@ shoestrap
+msgid "Widgets mode"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:310
+#@ shoestrap
+msgid "How do you want your widgets to be displayed?"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:314
+#@ shoestrap
+msgid "Panel"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:315
+#@ shoestrap
+msgid "Well"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:316
+#@ shoestrap
+msgid "None"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:322
+#@ shoestrap
+msgid "Body Top Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:323
+#@ shoestrap
+msgid "Select the top margin of body element in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:334
+#@ shoestrap
+msgid "Body Bottom Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:335
+#@ shoestrap
+msgid "Select the bottom margin of body element in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:346
+#@ shoestrap
+msgid "Custom Grid"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:347
+#@ shoestrap
+msgid "CAUTION:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:347
+#@ shoestrap
+msgid "Only use this if you know what you are doing, as changing these values might break the way your site looks on some devices. The default settings should be fine for the vast majority of sites."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:354
+#@ shoestrap
+msgid "Small Screen / Tablet view"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:355
+#@ shoestrap
+msgid "The width of Tablet screens. Default: 768px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:370
+#@ shoestrap
+msgid "Desktop Container Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:371
+#@ shoestrap
+msgid "The width of normal screens. Default: 992px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:386
+#@ shoestrap
+msgid "Large Desktop Container Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:387
+#@ shoestrap
+msgid "The width of Large Desktop screens. Default: 1200px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:402
+#@ shoestrap
+msgid "Columns Gutter"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:403
+#@ shoestrap
+msgid "The space between the columns in your grid. Default: 30px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:418
+#@ shoestrap
+msgid "Custom Layouts per Post Type"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:419
+#@ shoestrap
+msgid "Set a default layout for each post type on your site."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:433
+#@ shoestrap
+msgid " Layout"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:434
+#@ shoestrap
+msgid "Override your default stylings. Choose between 1, 2 or 3 column layout."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:451
+#@ shoestrap
+msgid "Advanced Layout"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:471
+#@ shoestrap
+msgid "Blog"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:475
+#@ shoestrap
+msgid "Archives Display Mode"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:476
+#@ shoestrap
+msgid "Display the excerpt or the full post on post archives."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:481
+#@ shoestrap
+msgid "Excerpt"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:482
+#@ shoestrap
+msgid "Full Post"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:487
+#@ shoestrap
+msgid "Activate and order Post Meta elements"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:501
+#@ shoestrap
+msgid "Switch Date Meta in time_diff mode"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:502
+#@ shoestrap
+msgid "Replace Date Meta element by displaying the difference between post creation timestamp and current timestamp. Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:509
+#@ shoestrap
+msgid "Post excerpt length"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:510
+#@ shoestrap
+msgid "Choose how many words should be used for post excerpt. Default: 40"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:521
+#@ shoestrap
+msgid "\"more\" text"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:522
+#@ shoestrap
+msgid "Text to display in case of excerpt too long. Default: Continued"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:524
+#@ shoestrap
+msgid "Continued"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:529
+#@ shoestrap
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:530
+#@ shoestrap
+msgid "Display Breadcrumbs. Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:536
+#@ shoestrap
+msgid "Show Post Meta in single posts"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:537
+#@ shoestrap
+msgid "Toggle Post Meta showing in the footer of single posts. Default: ON."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:560
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:566
+#@ shoestrap
+msgid "Featured Images"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:567
+#@ shoestrap
+msgid ""
+"Here you can select if you want to display the featured images in post archives and individual posts.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tPlease note that these apply to posts, pages, as well as custom post types.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\tYou can select image sizes independently for archives and individual posts view."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:573
+#@ shoestrap
+msgid "Featured Images on Archives"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:574
+#@ shoestrap
+msgid "Display featured Images on post archives ( such as categories, tags, month view etc ). Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:580
+#@ shoestrap
+msgid "Width of Featured Images on Archives"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:581
+#@ shoestrap
+msgid "Set dimensions of featured Images on Archives. Default: Full Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:585
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:628
+#@ shoestrap
+msgid "Full Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:586
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:629
+#@ shoestrap
+msgid "Custom Dimensions"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:590
+#@ shoestrap
+msgid "Archives Featured Image Custom Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:591
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:635
+#@ shoestrap
+msgid "Select the width of your featured images on single posts. Default: 550px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:605
+#@ shoestrap
+msgid "Archives Featured Image Custom Height"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:606
+#@ shoestrap
+msgid "Select the height of your featured images on post archives. Default: 300px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:617
+#@ shoestrap
+msgid "Featured Images on Posts"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:618
+#@ shoestrap
+msgid "Display featured Images on posts. Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:624
+#@ shoestrap
+msgid "Width of Featured Images on Posts"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:625
+#@ shoestrap
+msgid "Set dimensions of featured Images on Posts. Default: Full Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:634
+#@ shoestrap
+msgid "Posts Featured Image Custom Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:649
+#@ shoestrap
+msgid "Posts Featured Image Custom Height"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:650
+#@ shoestrap
+msgid "Select the height of your featured images on single posts. Default: 330px"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:661
+#@ shoestrap
+msgid "Disable featured images on single post types"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:679
+#@ shoestrap
+msgid "A 'Jumbotron', also known as 'Hero' area, is an area in your site where you can display in a prominent position things that matter to you. This can be a slideshow, some text or whatever else you wish. This area is implemented as a widget area, so in order for something to be displayed you will have to add a widget to it."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:683
+#@ shoestrap
+msgid "Jumbotron Background"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:684
+#@ shoestrap
+msgid "Select the background for your Jumbotron area."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:698
+#@ shoestrap
+msgid "Jumbotron Background Opacity"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:699
+#@ shoestrap
+msgid "Select the background opacity for your jumbotron. Default: 100%."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:709
+#@ shoestrap
+msgid "Display Jumbotron only on the Frontpage."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:710
+#@ shoestrap
+msgid "When Turned OFF, the Jumbotron area is displayed in all your pages. If you wish to completely disable the Jumbotron, then please remove the widgets assigned to its area and it will no longer be displayed. Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:716
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:836
+#@ shoestrap
+msgid "Full-Width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:717
+#@ shoestrap
+msgid "When Turned ON, the Jumbotron is no longer restricted by the width of your page, taking over the full width of your screen. This option is useful when you have assigned a slider widget on the Jumbotron area and you want its width to be the maximum width of the screen. Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:727
+#@ shoestrap
+msgid "Advanced Jumbotron"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:732
+#@ shoestrap
+msgid "Use fittext script for the title."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:733
+#@ shoestrap
+msgid "Use the fittext script to enlarge or scale-down the font-size of the widget title to fit the Jumbotron area. Default: OFF"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:740
+#@ shoestrap
+msgid "Center-align the content."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:741
+#@ shoestrap
+msgid "Turn this on to center-align the contents of the Jumbotron area. Default: OFF"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:748
+#@ shoestrap
+msgid "Jumbotron Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:749
+#@ shoestrap
+msgid "The font used in jumbotron."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:761
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:787
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1003
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1020
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1318
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1339
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1360
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1381
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1402
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1423
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1445
+#@ shoestrap
+msgid "This is my preview text!"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:768
+#@ shoestrap
+msgid "Jumbotron Header Overrides"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:769
+#@ shoestrap
+msgid "By enabling this you can specify custom values for each <h*> tag. Default: Off"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:777
+#@ shoestrap
+msgid "Jumbotron Headers Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:778
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1304
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1326
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1349
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1370
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1390
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1411
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1432
+#@ shoestrap
+msgid "The main font for your site."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:798
+#@ shoestrap
+msgid "Select the border options for your Jumbotron"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:818
+#@ shoestrap
+msgid "Menus"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:823
+#@ shoestrap
+msgid "Advanced NavBar Options"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:824
+#@ shoestrap
+msgid "You can activate or deactivate your Primary NavBar here, and define its properties. Please note that you might have to manually create a menu if it doesn't already exist."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:828
+#@ shoestrap
+msgid "Type of NavBar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:829
+#@ shoestrap
+msgid "Choose the type of Navbar you want. Off completely hides the navbar, Alternative uses an alternative walker for the navigation menus. See <a target=\"_blank\"href=\"https://github.com/twittem/wp-bootstrap-navwalker\">here</a> for more details."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:829
+#@ shoestrap
+msgid "<strong>WARNING:</strong> The \"Static-Left\" option is ONLY compatible with fluid layouts. The width of the static-left navbar is controlled by the secondary sidebar width."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:833
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:847
+#@ shoestrap
+msgid "Off"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:834
+#@ shoestrap
+msgid "Normal"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:837
+#@ shoestrap
+msgid "Static-Left"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:842
+#@ shoestrap
+msgid "Display Branding ( Sitename, Logo or Both ) on the NavBar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:843
+#@ shoestrap
+msgid "Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:848
+#@ shoestrap
+msgid "On"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:849
+#@ shoestrap
+msgid "Both"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:854
+#@ shoestrap
+msgid "Use Logo ( if available ) for branding on the NavBar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:855
+#@ shoestrap
+msgid "If this option is OFF, or there is no logo available, then the sitename will be displayed instead. Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:861
+#@ shoestrap
+msgid "NavBar Positioning"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:862
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:871
+#@ shoestrap
+msgid "Using this option you can set the navbar to be fixed to top, fixed to bottom or normal. When you're using one of the 'fixed' options, the navbar will stay fixed on the top or bottom of the page. Default: Normal"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:865
+#@ shoestrap
+msgid "Fixed"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:866
+#@ shoestrap
+msgid "Scroll"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:870
+#@ shoestrap
+msgid "Fixed NavBar Position"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:875
+#@ shoestrap
+msgid "Bottom"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:876
+#@ shoestrap
+msgid "Top"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:881
+#@ shoestrap
+msgid "Responsive NavBar Threshold"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:882
+#@ shoestrap
+msgid "Point at which the navbar becomes uncollapsed"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:886
+#@ shoestrap
+msgid "Never"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:887
+#@ shoestrap
+msgid "Extra Small"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:888
+#@ shoestrap
+msgid "Small"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:889
+#@ shoestrap
+msgid "Desktop"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:890
+#@ shoestrap
+msgid "Large Desktop"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:891
+#@ shoestrap
+msgid "Always"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:898
+#@ shoestrap
+msgid "Display social links in the NavBar."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:899
+#@ shoestrap
+msgid "Display social links in the NavBar. These can be setup in the 'Social' section on the left. Default: OFF"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:905
+#@ shoestrap
+msgid "Display social links as a Dropdown list or an Inline list."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:906
+#@ shoestrap
+msgid "How to display social links. Default: Dropdown list"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:909
+#@ shoestrap
+msgid "Inline"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:910
+#@ shoestrap
+msgid "Dropdown"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:916
+#@ shoestrap
+msgid "Search form on the NavBar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:917
+#@ shoestrap
+msgid "Display a search form in the NavBar. Default: On"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:923
+#@ shoestrap
+msgid "Float NavBar menu to the right"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:924
+#@ shoestrap
+msgid "Floats the primary navigation to the right. Default: On"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:934
+#@ shoestrap
+msgid "Menus Styling"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:940
+#@ shoestrap
+msgid "NavBar Styling Options"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:941
+#@ shoestrap
+msgid "Customize the look and feel of your navbar below."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:945
+#@ shoestrap
+msgid "NavBar Background Color"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:946
+#@ shoestrap
+msgid "Pick a background color for the NavBar. Default: #eeeeee."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:954
+#@ shoestrap
+msgid "NavBar Background Opacity"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:955
+#@ shoestrap
+msgid "Pick a background opacity for the NavBar. Default: 100%."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:964
+#@ shoestrap
+msgid "NavBar Menu Style"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:965
+#@ shoestrap
+msgid "You can use an alternative menu style for your NavBars."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:970
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1100
+#@ shoestrap
+msgid "Default"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:971
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:972
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:973
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:974
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:975
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:976
+#@ shoestrap
+msgid "Style"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:977
+#@ shoestrap
+msgid "Metro"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:981
+#@ shoestrap
+msgid "NavBar Height"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:982
+#@ shoestrap
+msgid "Select the height of the NavBar in pixels. Should be equal or greater than the height of your logo if you've added one."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:992
+#@ shoestrap
+msgid "Navbar Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:993
+#@ shoestrap
+msgid "The font used in navbars."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1009
+#@ shoestrap
+msgid "Branding Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1010
+#@ shoestrap
+msgid "The branding font for your site."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1026
+#@ shoestrap
+msgid "NavBar Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1027
+#@ shoestrap
+msgid "Select the top and bottom margin of the NavBar in pixels. Applies only in static top navbar ( scroll condition ). Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1041
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1047
+#@ shoestrap
+msgid "Secondary Navbar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1048
+#@ shoestrap
+msgid "The secondary navbar is a 2nd navbar, located right above the main wrapper. You can show a menu there, by assigning it from Appearance -> Menus."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1052
+#@ shoestrap
+msgid "Display social networks in the secondary navigation bar."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1053
+#@ shoestrap
+msgid "Enable this option to display your social networks as a dropdown menu on the seondary navbar."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1059
+#@ shoestrap
+msgid "Secondary NavBar Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1060
+#@ shoestrap
+msgid "Select the top and bottom margin of header in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1073
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1088
+#@ shoestrap
+msgid "Sidebar Menus"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1081
+#@ shoestrap
+msgid "Please switch to Anvanced Setup Mode from the \"General\" section to see more options."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1089
+#@ shoestrap
+msgid "If you're using the \"Custom Menu\" widgets in your sidebars, you can control their styling here"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1094
+#@ shoestrap
+msgid "Color for sidebar menus"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1095
+#@ shoestrap
+msgid "Select a style for menus added to your sidebars using the custom menu widget"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1101
+#@ shoestrap
+msgid "Branding-Primary"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1102
+#@ shoestrap
+msgid "Branding-Success"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1103
+#@ shoestrap
+msgid "Branding-Warning"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1104
+#@ shoestrap
+msgid "Branding-Info"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1105
+#@ shoestrap
+msgid "Branding-Danger"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1110
+#@ shoestrap
+msgid "Inverse Sidebar_menus."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1111
+#@ shoestrap
+msgid "Default: OFF. See https://github.com/twittem/wp-bootstrap-navlist-walker for more details"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1122
+#@ shoestrap
+msgid "Header"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1127
+#@ shoestrap
+msgid "Extra Branding Area"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1128
+#@ shoestrap
+msgid "You can enable an extra branding/header area. In this header you can add your logo, and any other widgets you wish."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1132
+#@ shoestrap
+msgid "Display the Header."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1133
+#@ shoestrap
+msgid "Turn this ON to display the header. Default: OFF"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1139
+#@ shoestrap
+msgid "Display branding on your Header."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1140
+#@ shoestrap
+msgid "Turn this ON to display branding ( Sitename or Logo )on your Header. Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1147
+#@ shoestrap
+msgid "Header Background"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1148
+#@ shoestrap
+msgid "Specify the background for your header."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1158
+#@ shoestrap
+msgid "Header Background Opacity"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1159
+#@ shoestrap
+msgid "Select the background opacity for your header. Default: 100%."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1170
+#@ shoestrap
+msgid "Header Text Color"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1171
+#@ shoestrap
+msgid "Select the text color for your header. Default: #333333."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1179
+#@ shoestrap
+msgid "Header Top Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1180
+#@ shoestrap
+msgid "Select the top margin of header in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1190
+#@ shoestrap
+msgid "Header Bottom Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1191
+#@ shoestrap
+msgid "Select the bottom margin of header in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1205
+#@ shoestrap
+msgid "Footer"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1209
+#@ shoestrap
+msgid "Footer Background Color"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1210
+#@ shoestrap
+msgid "Select the background color for your footer. Default: #282a2b."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1217
+#@ shoestrap
+msgid "Footer Background Opacity"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1218
+#@ shoestrap
+msgid "Select the opacity level for the footer bar. Default: 100%."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1227
+#@ shoestrap
+msgid "Footer Text Color"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1228
+#@ shoestrap
+msgid "Select the text color for your footer. Default: #8C8989."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1235
+#@ shoestrap
+msgid "Footer Text"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1236
+#@ shoestrap
+msgid "The text that will be displayed in your footer. You can use [year] and [sitename] and they will be replaced appropriately. Default: &copy; [year] [sitename]"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1258
+#@ shoestrap
+msgid "Footer Top Margin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1259
+#@ shoestrap
+msgid "Select the top margin of footer in pixels. Default: 0px."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1268
+#@ shoestrap
+msgid "Show social icons in footer"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1269
+#@ shoestrap
+msgid "Show social icons in the footer. Default: On."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1275
+#@ shoestrap
+msgid "Footer social links column width"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1276
+#@ shoestrap
+msgid "You can customize the width of the footer social links area. The footer text width will be adjusted accordingly. Default: 5."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1286
+#@ shoestrap
+msgid "Footer social icons open new window"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1287
+#@ shoestrap
+msgid "Social icons in footer will open a new window. Default: On."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1299
+#@ shoestrap
+msgid "Typography"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1303
+#@ shoestrap
+msgid "Base Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1325
+#@ shoestrap
+msgid "H1 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1348
+#@ shoestrap
+msgid "H2 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1369
+#@ shoestrap
+msgid "H3 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1389
+#@ shoestrap
+msgid "H4 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1410
+#@ shoestrap
+msgid "H5 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1431
+#@ shoestrap
+msgid "H6 Font"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1457
+#@ shoestrap
+msgid "Social"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1462
+#@ shoestrap
+msgid "Social Sharing"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1466
+#@ shoestrap
+msgid "Button Text"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1467
+#@ shoestrap
+msgid "Select the text for the social sharing button."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1473
+#@ shoestrap
+msgid "Button Location"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1474
+#@ shoestrap
+msgid "Select between NONE, TOP, BOTTOM & BOTH. For archives, \"BOTH\" fallbacks to \"BOTTOM\" only."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1486
+#@ shoestrap
+msgid "Button Styling"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1487
+#@ shoestrap
+msgid "Select between standard Bootstrap's button classes"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1500
+#@ shoestrap
+msgid "Show in Posts Archives"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1501
+#@ shoestrap
+msgid "Show the sharing button in posts archives."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1507
+#@ shoestrap
+msgid "Show in Single Post"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1508
+#@ shoestrap
+msgid "Show the sharing button in single post."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1514
+#@ shoestrap
+msgid "Show in Single Page"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1515
+#@ shoestrap
+msgid "Show the sharing button in single page."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1523
+#@ shoestrap
+msgid "Social Share Networks"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1524
+#@ shoestrap
+msgid "Select the Social Networks you want to enable for social shares"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1527
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1584
+#@ shoestrap
+msgid "Facebook"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1528
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1608
+#@ shoestrap
+msgid "Google+"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1529
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1624
+#@ shoestrap
+msgid "LinkedIn"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1530
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1640
+#@ shoestrap
+msgid "Pinterest"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1531
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1648
+#@ shoestrap
+msgid "Reddit"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1532
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1680
+#@ shoestrap
+msgid "Tumblr"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1533
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1688
+#@ shoestrap
+msgid "Twitter"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1534
+#@ shoestrap
+msgid "Email"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1542
+#@ shoestrap
+msgid "Social Links"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1548
+#@ shoestrap
+msgid "Social Links used in Menus && Footer"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1552
+#@ shoestrap
+msgid "Blogger"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1553
+#@ shoestrap
+msgid "Provide the link you desire and the Blogger icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1560
+#@ shoestrap
+msgid "DeviantART"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1561
+#@ shoestrap
+msgid "Provide the link you desire and the DeviantART icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1568
+#@ shoestrap
+msgid "Digg"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1569
+#@ shoestrap
+msgid "Provide the link you desire and the Digg icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1576
+#@ shoestrap
+msgid "Dribbble"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1577
+#@ shoestrap
+msgid "Provide the link you desire and the Dribbble icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1585
+#@ shoestrap
+msgid "Provide the link you desire and the Facebook icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1592
+#@ shoestrap
+msgid "Flickr"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1593
+#@ shoestrap
+msgid "Provide the link you desire and the Flickr icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1600
+#@ shoestrap
+msgid "GitHub"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1601
+#@ shoestrap
+msgid "Provide the link you desire and the GitHub icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1609
+#@ shoestrap
+msgid "Provide the link you desire and the Google+ icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1616
+#@ shoestrap
+msgid "Instagram"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1617
+#@ shoestrap
+msgid "Provide the link you desire and the Instagram icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1625
+#@ shoestrap
+msgid "Provide the link you desire and the LinkedIn icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1632
+#@ shoestrap
+msgid "MySpace"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1633
+#@ shoestrap
+msgid "Provide the link you desire and the MySpace icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1641
+#@ shoestrap
+msgid "Provide the link you desire and the Pinterest icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1649
+#@ shoestrap
+msgid "Provide the link you desire and the Reddit icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1657
+#@ shoestrap
+msgid "Provide the link you desire and the RSS icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1664
+#@ shoestrap
+msgid "Skype"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1665
+#@ shoestrap
+msgid "Provide the link you desire and the Skype icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1672
+#@ shoestrap
+msgid "SoundCloud"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1673
+#@ shoestrap
+msgid "Provide the link you desire and the SoundCloud icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1681
+#@ shoestrap
+msgid "Provide the link you desire and the Tumblr icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1689
+#@ shoestrap
+msgid "Provide the link you desire and the Twitter icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1696
+#@ shoestrap
+msgid "Vimeo"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1697
+#@ shoestrap
+msgid "Provide the link you desire and the Vimeo icon will appear. To remove it, just leave it blank."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1729
+#@ shoestrap
+msgid "Enable Retina mode"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1730
+#@ shoestrap
+msgid "By enabling your site's featured images will be retina ready. Requires images to be uploaded at 2x the typical size desired. Default: On"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1736
+#@ shoestrap
+msgid "Google Analytics ID"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1737
+#@ shoestrap
+msgid "Paste your Google Analytics ID here to enable analytics tracking. Only Universal Analytics properties. Your user ID should be in the form of UA-XXXXX-Y."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1745
+#@ shoestrap
+msgid "The following settings affect various areas of your site, most notably buttons."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1749
+#@ shoestrap
+msgid "Border-Radius"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1750
+#@ shoestrap
+msgid "You can adjust the corner-radius of all elements in your site here. This will affect buttons, navbars, widgets and many more. Default: 4"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1761
+#@ shoestrap
+msgid "Padding Base"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1762
+#@ shoestrap
+msgid "You can adjust the padding base. This affects buttons size and lots of other cool stuff too! Default: 8"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1773
+#@ shoestrap
+msgid "Root Relative URLs"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1774
+#@ shoestrap
+msgid "Return URLs such as <em>/assets/css/style.css</em> instead of <em>http://example.com/assets/css/style.css</em>. Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1781
+#@ shoestrap
+msgid "Enable Nice Search"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1782
+#, php-format
+#@ shoestrap
+msgid "Redirects /?s=query to /search/query/, convert %20 to +. Default: ON"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1789
+#@ shoestrap
+msgid "Custom CSS"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1790
+#@ shoestrap
+msgid "You can write your custom CSS here. This code will appear in a script tag appended in the header section of the page."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1799
+#@ shoestrap
+msgid "Custom LESS"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1800
+#@ shoestrap
+msgid "You can write your custom LESS here. This code will be compiled with the other LESS files of the theme and be appended to the header."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1810
+#@ shoestrap
+msgid "Custom JS"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1811
+#@ shoestrap
+msgid "You can write your custom JavaScript/jQuery here. The code will be included in a script tag appended to the bottom of the page."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1820
+#@ shoestrap
+msgid "Minimize CSS"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1821
+#@ shoestrap
+msgid "Minimize the genearated CSS. This should be ON for production sites. Default: OFF."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1829
+#@ shoestrap
+msgid "Toggle adminbar On/Off"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1830
+#@ shoestrap
+msgid "Turn the admin bar On or Off on the frontend. Default: Off."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1837
+#@ shoestrap
+msgid "Use Google CDN for jQuery"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1845
+#@ shoestrap
+msgid "Use Title attribute in menus"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1867
+#@ shoestrap
+msgid "Shoestrap"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1868
+#@ shoestrap
+msgid "Shoestrap Options"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/customizer.php:20
+#@ shoestrap
+msgid "Accent"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/customizer.php:26
+#@ shoestrap
+msgid "NavBar"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/widgets.php:18
+#@ shoestrap
+msgid "Use this widget to add a vCard"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/widgets.php:20
+#@ shoestrap
+msgid "Shoestrap: vCard"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/widgets.php:47
+#@ shoestrap
+msgid "vCard"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/templates/top-bar.php:14
+#@ shoestrap
+msgid "Toggle navigation"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/less-php/class-Shoestrap_Less_php.php:174
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/sass-php/class-Shoestrap_Sass_php.php:127
+#@ shoestrap
+msgid "The following file does not exist and must be so in order to utilise this theme. Please create this file."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/less-php/class-Shoestrap_Less_php.php:175
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/sass-php/class-Shoestrap_Sass_php.php:128
+#@ shoestrap
+msgid "Try visiting the theme options and clicking the \"Reset All\" button to attempt automatically creating it."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/less-php/class-Shoestrap_Less_php.php:182
+#: /var/www/html/wp-content/themes/shoestrap-3/framework/compilers/sass-php/class-Shoestrap_Sass_php.php:135
+#@ shoestrap
+msgid "The following file is not writable and must be so in order to utilise this theme. Please update the permissions."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/index.php:11
+#@ shoestrap
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:259
+#@ bbpress
+msgid "Subscribe"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:260
+#@ bbpress
+msgid "Unsubscribe"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:361
+#@ bbpress
+msgid "Favorited"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:604
+#@ bbpress
+msgid "No topics available"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:609
+#@ bbpress
+msgid "No forums available"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:614
+#@ bbpress
+msgid "None available"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-Shoestrap_Image.php:68
+#@ shoestrap
+msgid "No image URL has been entered."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:196
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:46
+#@ tgmpa
+#@ shoestrap
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:197
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:47
+#@ tgmpa
+#@ shoestrap
+msgid "Install Plugins"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:198
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:48
+#, php-format
+#@ tgmpa
+#@ shoestrap
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:199
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:200
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:50
+#, php-format
+#@ shoestrap
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:201
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:51
+#, php-format
+#@ shoestrap
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:202
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:52
+#, php-format
+#@ shoestrap
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:203
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:53
+#, php-format
+#@ shoestrap
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:204
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:54
+#, php-format
+#@ shoestrap
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:205
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:55
+#, php-format
+#@ shoestrap
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:206
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:56
+#, php-format
+#@ shoestrap
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:207
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:57
+#, php-format
+#@ shoestrap
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:208
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:58
+#@ shoestrap
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:209
+#@ shoestrap
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:210
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:60
+#@ tgmpa
+#@ shoestrap
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:211
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:212
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1951
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:61
+#@ tgmpa
+#@ shoestrap
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:214
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:215
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:544
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2168
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1174
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1177
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1182
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1185
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1185
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1188
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1190
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1290
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1398
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1312
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1399
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1361
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1377
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1378
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1379
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1508
+#@ tgmpa
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1616
+#@ tgmpa
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1638
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:213
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1934
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1935
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1936
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1937
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1938
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1939
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:1950
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2064
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2065
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2065
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2074
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2065
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2074
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2066
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2067
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2071
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2072
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2073
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2074
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2075
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/class-TGM_Plugin_Activation.php:2076
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/cleanup.php:236
+#@ shoestrap
+msgid "&laquo; Previous"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/cleanup.php:237
+#@ shoestrap
+msgid "Next &raquo;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/cleanup.php:289
+#@ default
+msgid "&hellip;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:49
+#@ shoestrap
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:59
+#@ shoestrap
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/dependencies.php:62
+#, php-format
+#@ shoestrap
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/deprecated.php:36
+#, php-format
+#@ shoestrap
+msgid "%1$s is <strong>deprecated</strong> since Shoestrap version %2$s! Use %3$s instead."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/deprecated.php:41
+#, php-format
+#@ shoestrap
+msgid "%1$s is <strong>deprecated</strong> since Shoestrap version %2$s with no alternative available."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/functions-core.php:41
+#@ shoestrap
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/init.php:11
+#@ shoestrap
+msgid "Primary Navigation"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/init.php:12
+#@ shoestrap
+msgid "Secondary Navigation"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/meta.php:11
+#@ shoestrap
+msgid "Categories:"
+msgstr "Categorías"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:10
+#@ shoestrap
+msgid "Latest Posts"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:20
+#, php-format
+#@ shoestrap
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:22
+#, php-format
+#@ shoestrap
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:24
+#, php-format
+#@ shoestrap
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:26
+#, php-format
+#@ shoestrap
+msgid "Author Archives: %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:32
+#, php-format
+#@ shoestrap
+msgid "Search Results for %s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:34
+#@ shoestrap
+msgid "Not Found"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/lib/updater/EDD_SL_Theme_Updater.php:54
+#@ default
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comment.php:10
+#, php-format
+#@ shoestrap
+msgid "%1$s"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comment.php:13
+#@ shoestrap
+msgid "(Edit)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comment.php:16
+#@ shoestrap
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:11
+#, php-format
+#@ shoestrap
+msgid "One Response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Responses to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:21
+#@ shoestrap
+msgid "&larr; Older comments"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:24
+#@ shoestrap
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:31
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:38
+#@ shoestrap
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:44
+#@ shoestrap
+msgid "Leave a Reply"
+msgstr "Deja un comentario"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:44
+#, php-format
+#@ shoestrap
+msgid "Leave a Reply to %s"
+msgstr "Deja un comentario a %s"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:47
+#, php-format
+#@ shoestrap
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:52
+#, php-format
+#@ shoestrap
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Conectado como <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:53
+#@ shoestrap
+msgid "Log out of this account"
+msgstr "Salir de esta cuenta"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:53
+#@ shoestrap
+msgid "Log out &raquo;"
+msgstr "Salir &raquo;"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:57
+#@ shoestrap
+msgid "Name"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:57
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:61
+#@ shoestrap
+msgid " (required)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:61
+#@ shoestrap
+msgid "Email (will not be published)"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:65
+#@ shoestrap
+msgid "Website"
+msgstr ""
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:70
+#@ shoestrap
+msgid "Comment"
+msgstr "Comentario"
+
+#: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:73
+#@ shoestrap
+msgid "Submit Comment"
+msgstr "Enviar comentario"
+
