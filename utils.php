@@ -1,4 +1,5 @@
 <?php
+require_once( dirname(__FILE__) . '/lib/simple_html_dom.php' );
 
 /**
  * Procesar las clases de los iconos Font Awesome.
@@ -52,6 +53,32 @@ function imagen_ull_make_default_option_modifier( $id, $default_value) {
 			return $field;
 		}, $fields);
 	};
+}
+
+/*
+ * Función contenedora para mostrar las barras laterales.
+ */
+function imagen_ull_dynamic_sidebar( $index ) {
+	// Capturar la salida de los widgets
+	ob_start();
+	$result = dynamic_sidebar( $index );
+	$content = str_get_html( ob_get_clean() );
+
+	// Incorporar a las etiquetas <ul> las clases de bootstrap adecuadas
+	$items = $content->find( 'div.panel-body > ul' );
+	foreach ( $items as $item ) {
+		$item->class = 'nav nav-pills nav-stacked';
+	}
+
+	// Añadir iconos junto ia las entradas de comentarios recientes
+	$items = $content->find( '#recentcomments > li' );
+	foreach ( $items as $item ) {
+		$item->innertext = '<i class="fa fa-edit"></i>&nbsp;' . $item->innertext;
+	}
+
+	// Mostrar el contenido de la barra lateral
+	echo $content;
+	return $result;
 }
 
 ?> 
