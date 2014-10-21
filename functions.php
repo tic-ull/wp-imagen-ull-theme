@@ -35,13 +35,26 @@ add_filter( 'shoestrap_module_layout_options_modifier',
 add_filter( 'shoestrap_module_layout_options_modifier',
 			imagen_ull_make_default_option_modifier( 'layout', '2' ) );
 
+// Activar el uso de componentes 'panel' en los widgets
+add_filter( 'shoestrap_module_layout_advanced_options_modifier',
+			imagen_ull_make_default_option_modifier( 'widgets_mode', '0' ) );
+
 // Fijar el tamaño de la barra lateral a 3 columnas
 add_filter( 'shoestrap_module_layout_options_modifier',
 			imagen_ull_make_default_option_modifier( 'layout_primary_width', '3' ) );
 
-// Activar el uso de componentes 'panel' en los widgets
-add_filter( 'shoestrap_module_layout_advanced_options_modifier',
-			imagen_ull_make_default_option_modifier( 'widgets_mode', '0' ) );
+// Ajuste del tamaño de la rejilla de bootstrap
+add_filter( 'shoestrap_section_class_main', function( $class ) {
+	return str_replace( '-sm-', '-md-', $class );
+}, 20);
+
+add_filter( 'shoestrap_section_class_primary', function( $class ) {
+	return str_replace( '-sm-', '-md-', $class );
+}, 20);
+
+add_filter( 'shoestrap_section_class_secondary', function( $class ) {
+	return str_replace( '-sm-', '-md-', $class );
+}, 20);
 
 /*
  * Configuración de la tipografía.
