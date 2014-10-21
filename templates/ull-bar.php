@@ -7,6 +7,14 @@ if ( $navbar_toggle != 'none' ) {?>
 	<header id="banner-header-ull" class="banner <?php echo apply_filters( 'shoestrap_navbar_class', 'navbar navbar-default', 'ull-bar' ); ?>" role="banner">
 		<div class="<?php echo apply_filters( 'shoestrap_navbar_container_class', 'container' ); ?>">
 			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-app .navbar-collapse">
+					<span class="sr-only">Desplegar menú de aplicación</span>
+                    <span class="fa fa-bars fa-stack"></span>
+				</button>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ull .navbar-collapse">
+					<span class="sr-only">Desplegar menú de navegación</span>
+                    <span class="fa fa-link fa-stack"></span>
+				</button>
 				<a class="navbar-brand text" href="http://www.ull.es/">Universidad de La Laguna</a>
 			</div>
 			<nav class="nav-main navbar-collapse collapse" role="navigation">

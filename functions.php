@@ -167,6 +167,12 @@ add_filter( 'shoestrap_nav_class', function ($class ) {
 add_filter( 'shoestrap_module_menus_options_modifier',
 	imagen_ull_make_default_option_modifier( 'navbar_search', 0 ) );
 
+// Desactivar el botón del menú de navegación desplegable en la barra
+// contextual de servicio.
+add_filter( 'shoestrap_nav_toggler', function( $content ) {
+	return '';
+}, 20);
+
 /*
  * Incorporar soporte de iconos Font Awesome a los menús de navegación.
  *
