@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Imagen ULL vdraft\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-10-21 21:35:24+0000\n"
+"PO-Revision-Date: 2014-10-21 23:10:28+0000\n"
 "Last-Translator: jmtorres <jmtorres@ull.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3004,7 +3004,7 @@ msgstr ""
 #: /var/www/html/wp-content/themes/shoestrap-3/lib/meta.php:11
 #@ shoestrap
 msgid "Categories:"
-msgstr "Categorías"
+msgstr "Categorías:"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/lib/titles.php:10
 #@ shoestrap
