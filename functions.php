@@ -235,6 +235,9 @@ add_filter( 'wp_nav_menu_args', function( $args ) {
 	return $args;
 });
 
+// Permitir el uso de shortcodes en los widgets
+add_filter('widget_text', 'do_shortcode');
+
 /*
  * Soporte de tipos especiales de elementos en los menús de navegación.
  *
