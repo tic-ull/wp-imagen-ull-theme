@@ -209,6 +209,7 @@ a.btn-signin i.fa, a.btn-signout i.fa {
     margin-top: 0;
     min-width: 200px;
     padding: 5px 0;
+    background-color: #fff;
 }
 
 .navbar-default .dropdown-menu li a {
@@ -223,6 +224,17 @@ a.btn-signin i.fa, a.btn-signout i.fa {
     padding: 5px 15px;
     margin-bottom: 0;
     font-size: 12px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626 !important;
+    text-decoration: none;
+    background-color: #f5f5f5 !important;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #7A3B7A;
+    text-decoration: underline;
 }
 
 .navbar {
@@ -678,9 +690,8 @@ body li.divider {
 }
 
 .jumbotron {
+    margin-top: -15px;
     background: #fff;
-    padding-bottom: 20px;
-    padding-top: 20px;
     text-align: center;
 }
 
@@ -720,8 +731,6 @@ body li.divider {
 
     .jumbotron {
         margin-bottom: 0;
-        padding: 10px 0;
-        padding-top: 0;
     }
 
     .jumbotron h1 {

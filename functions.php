@@ -20,6 +20,7 @@ add_filter( 'shoestrap_compiler', function( $bootstrap ) {
 	return $bootstrap . '
 	@import "' . get_stylesheet_directory() . '/assets/less/font-awesome-4.1.0/font-awesome.less";
 	@import "' . get_stylesheet_directory() . '/assets/less/elusive.less";
+	@import "' . get_stylesheet_directory() . '/assets/less/glyphicon.less";
 	@import "' . get_stylesheet_directory() . '/assets/less/ull.less";';
 }, 30);
 
@@ -235,7 +236,8 @@ add_filter( 'wp_nav_menu_args', function( $args ) {
 	return $args;
 });
 
-// Permitir el uso de shortcodes en los widgets
+// Permitir el uso de shortcodes en los widgets. Por ejemplo para incluir el
+// carrusel de Bootstrap en el componente Jumbotron.
 add_filter('widget_text', 'do_shortcode');
 
 /*
