@@ -291,8 +291,10 @@ add_filter( 'walker_nav_menu_start_el', function( $item_output, $item, $depth, $
 // Pemitir HTML en las descripciones de los elementos de menú
 remove_filter( 'nav_menu_description', 'strip_tags' );
 add_filter( 'wp_setup_nav_menu_item', function( $menu_item ) {
-    $menu_item->description = apply_filters( 'nav_menu_description', $menu_item->post_content );
-    return $menu_item;
+	if ( isset($menu_item->post_content) ) {
+		$menu_item->description = apply_filters( 'nav_menu_description', $menu_item->post_content );
+	}
+	return $menu_item;
 });
 
 /*
@@ -303,8 +305,8 @@ add_filter( 'wp_setup_nav_menu_item', function( $menu_item ) {
 add_action( 'wp_head', function() {
 	global $ss_settings;
 
-    $favicon_item = $ss_settings['favicon'];
-    $apple_icon_item = $ss_settings['apple_icon'];
+	$favicon_item = $ss_settings['favicon'];
+	$apple_icon_item = $ss_settings['apple_icon'];
 
 	// Añadir el favicon si fuera necesario
 	if ( empty( $favicon_item['url'] ) ) {
