@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Imagen ULL vdraft\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-10-21 23:10:28+0000\n"
+"PO-Revision-Date: 2014-10-25 01:01:42+0000\n"
 "Last-Translator: jmtorres <jmtorres@ull.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2213,7 +2213,7 @@ msgstr ""
 #: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1534
 #@ shoestrap
 msgid "Email"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/framework/bootstrap/includes/class-Shoestrap_Options.php:1542
 #@ shoestrap
@@ -3127,23 +3127,23 @@ msgstr "Salir &raquo;"
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:57
 #@ shoestrap
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:57
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:61
 #@ shoestrap
 msgid " (required)"
-msgstr ""
+msgstr "(requerido)"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:61
 #@ shoestrap
 msgid "Email (will not be published)"
-msgstr ""
+msgstr "Correo electrónico (no será publicado)"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:65
 #@ shoestrap
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/templates/comments.php:70
 #@ shoestrap
