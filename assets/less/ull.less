@@ -68,6 +68,12 @@ i.fa, i.icon {
     color: #878787;
 }
 
+/* redondear correctamente el primer icono de un grupo */
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 .btn-danger i.fa, .btn-info i.fa, .btn-primary i.fa, .btn-success i.fa, .btn-warning i.fa {
     color: #fff;
 }
@@ -773,9 +779,9 @@ dl.dl-horizontal {
  */
 
 .widget_search {
-	border: none;
+    border: none;
 }
 
 #searchform	#searchsubmit > i {
-	color: #878787
+    color: #878787
 }
