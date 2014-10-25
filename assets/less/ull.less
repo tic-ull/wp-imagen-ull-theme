@@ -321,6 +321,15 @@ a.btn-signin i.fa, a.btn-signout i.fa {
     border: 0;
 }
 
+/* Evitar que la barra lateral se mueva a la derecha cuando ancho < 1007px
+   https://github.com/shoestrap/shoestrap-3/issues/601
+ */
+@media screen and (min-width: 992px) {
+  .main-float-right main.main {
+    float: right;
+  }
+}
+
 @media (max-width:769px) {
     .navbar-app .breadcrumb {
         line-height: 30px;
