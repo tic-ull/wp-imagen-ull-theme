@@ -320,6 +320,16 @@ add_action( 'wp_head', function() {
 		echo '<link rel="apple-touch-icon-precomposed" sizes="72x72" href="'.IMAGEN_ULL_APPLEICON_72.'">';
 		echo '<link rel="apple-touch-icon-precomposed" href="'.IMAGEN_ULL_APPLEICON_57.'">';
 	}
+
+	// Añadir enlace al perfil del autor en Google+
+	// NOTA: Parece que Google ha abandonado Google Authorship:
+	//   https://support.google.com/webmasters/answer/6083347?hl=es
+	if ( is_author() ) {
+		$googleplus = get_the_author_meta( 'googleplus' );
+		if ( $googleplus ) {
+			echo '<link rel="author" href="' . esc_url($googleplus) . '">';
+		}
+	}
 });
 
 /*
