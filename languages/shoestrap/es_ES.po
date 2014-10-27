@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Imagen ULL vdraft\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-10-26 23:10:31+0000\n"
+"PO-Revision-Date: 2014-10-26 23:50:56+0000\n"
 "Last-Translator: jmtorres <jmtorres@ull.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2562,7 +2562,7 @@ msgstr ""
 #: /var/www/html/wp-content/themes/shoestrap-3/index.php:11
 #@ shoestrap
 msgid "Sorry, no results were found."
-msgstr ""
+msgstr "Lo siento, no se han encontrado resultados."
 
 #: /var/www/html/wp-content/themes/shoestrap-3/lib/bbpress.php:259
 #@ bbpress
