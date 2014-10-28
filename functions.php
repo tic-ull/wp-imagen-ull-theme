@@ -25,6 +25,16 @@ add_filter( 'shoestrap_compiler', function( $bootstrap ) {
 }, 30);
 
 /*
+ * Enlazar el código Javascript adicional del tema.
+ */
+
+add_action( 'wp_enqueue_scripts', function () {
+	if ( ! is_single() ) {
+		imagenull_enqueue_infinite_scroll_scripts();
+	}
+});
+
+/*
  * Configuración del layout.
  */
 
@@ -357,5 +367,39 @@ add_filter( 'shoestrap_module_socials_options_modifier',
 
 add_filter( 'shoestrap_module_blog_modifier',
 	imagen_ull_make_default_option_modifier( 'post_excerpt_link_text', 'Leer más' ) );
+
+/*
+ * Scroll infinito
+ */
+
+function imagenull_enqueue_infinite_scroll_scripts() {
+	wp_register_script('jquery-infinitescroll',
+		get_stylesheet_directory_uri() . '/assets/js/infinite-scroll/jquery.infinitescroll.min.js',
+		array ( 'jquery' ), '2.0.2', true);
+	wp_register_script('imagenull-infinitescroll',
+		get_stylesheet_directory_uri() . '/assets/js/infinite-scroll.min.js',
+		array ( 'jquery-infinitescroll' ), false, true);
+
+	$options = array(
+//		'debug'		  => true,
+		'loading'		=> array (
+			'msgText'	=> '<em>' . __('Cargando...', 'imagen_ull') . '</em>',
+			'img'		=> get_stylesheet_directory_uri() . '/assets/gif/ajax-loader.gif',
+			'finishedMsg'	=> '<em>' . __('No se han encontrado más noticias.', 'imagen_ull') . '</em>'
+		),
+		'navSelector'	  => 'nav.pagination',
+		'nextSelector'	  => 'nav.pagination a',
+		'itemSelector'	  => 'main article',
+		'contentSelector' => 'main',
+		'behavior'	  => 'imagenull',
+		'nextClasses'	  => 'btn btn-primary btn-lg btn-block',
+		'widthThreshold'  => 992
+	);
+	wp_localize_script( 'imagenull-infinitescroll', 'infinite_scroll',
+		json_encode( $options ) );
+
+	wp_enqueue_script( 'jquery-infinitescroll' );
+	wp_enqueue_script( 'imagenull-infinitescroll' );
+}
 
 ?>
