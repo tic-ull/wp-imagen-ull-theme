@@ -402,4 +402,21 @@ function imagenull_enqueue_infinite_scroll_scripts() {
 	wp_enqueue_script( 'imagenull-infinitescroll' );
 }
 
+/*
+ * Migas de pan
+ */
+
+add_action( 'shoestrap_pre_content', function() {
+	if ( function_exists('yoast_breadcrumb') && ! is_front_page() ) {
+		$breadcrumbs = yoast_breadcrumb( '<ol class="breadcrumb"><li>', '</li></ol>', false );
+		$last = strrpos( $breadcrumbs, '|');
+		if ($last !== false) {
+			$breadcrumbs[$last] = '$';
+			$breadcrumbs = str_replace( ' | ', "</li>\n<li>", $breadcrumbs );
+			$breadcrumbs = str_replace( ' $ ', "</li>\n<li class=\"active\">", $breadcrumbs );
+		}
+		echo '<div class="row"><div class="col-md-12">' . $breadcrumbs . '</div></div>';
+	}
+});
+
 ?>
