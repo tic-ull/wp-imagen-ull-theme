@@ -350,11 +350,20 @@ add_filter( 'shoestrap_module_advanced_options_modifier',
 	imagen_ull_make_default_option_modifier( 'jquery_cdn_toggler', 1 ) );
 
 /*
- * Desactivar por defecto la barra de administración.
+ * Mostar la barra de administración sólo a usuarios autenticados.
  */
 
 add_filter( 'shoestrap_module_advanced_options_modifier',
-	imagen_ull_make_default_option_modifier( 'advanced_wordpress_disable_admin_bar_toggle', 0 ) );
+	imagen_ull_make_default_option_modifier( 'advanced_wordpress_disable_admin_bar_toggle', 1 ) );
+
+add_filter('show_admin_bar', function() {
+	$settings = get_option( SHOESTRAP_OPT_NAME );
+        if ( $settings['advanced_wordpress_disable_admin_bar_toggle'] == 1 && is_user_logged_in() ) {
+		return true;
+	} else {
+		return false;
+	}
+}, 20);
 
 /*
  * Traducción y localización
