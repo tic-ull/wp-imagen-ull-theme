@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Imagen ULL vdraft\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-10-26 23:50:56+0000\n"
+"PO-Revision-Date: 2014-10-28 11:55:42+0000\n"
 "Last-Translator: jmtorres <jmtorres@ull.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,22 +28,22 @@ msgstr ""
 #: /var/www/html/wp-content/themes/shoestrap-3/404.php:7
 #@ shoestrap
 msgid "Sorry, but the page you were trying to view does not exist."
-msgstr ""
+msgstr "Disculpa, pero la página que estás intentando encontrar no existe."
 
 #: /var/www/html/wp-content/themes/shoestrap-3/404.php:11
 #@ shoestrap
 msgid "It looks like this was the result of either:"
-msgstr ""
+msgstr "Eso puede deberse a alguna de las siguientes causas:"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/404.php:13
 #@ shoestrap
 msgid "a mistyped address"
-msgstr ""
+msgstr "una dirección mal escrita"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/404.php:14
 #@ shoestrap
 msgid "an out-of-date link"
-msgstr ""
+msgstr "un enlace viejo que ya no existe"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/base.php:3
 #@ shoestrap
@@ -485,7 +485,7 @@ msgstr ""
 #@ buddypress
 #@ shoestrap
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: /var/www/html/wp-content/themes/shoestrap-3/buddypress/activity/index.php:76
 #@ buddypress
