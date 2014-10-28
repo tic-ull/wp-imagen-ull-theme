@@ -404,6 +404,9 @@ function imagenull_enqueue_infinite_scroll_scripts() {
 
 /*
  * Migas de pan
+ *
+ * - Hay que usar el plugin Wordpress SEO, activar las migas de pan e indicar
+ *   que el separado es el caracter '|'.
  */
 
 add_action( 'shoestrap_pre_content', function() {
