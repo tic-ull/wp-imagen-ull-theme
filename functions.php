@@ -430,5 +430,3 @@ add_action( 'shoestrap_pre_content', function() {
 		echo '<div class="row"><div class="col-md-12">' . $breadcrumbs . '</div></div>';
 	}
 });
-
-?>

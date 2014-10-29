@@ -80,5 +80,3 @@ function imagen_ull_dynamic_sidebar( $index ) {
 	echo $content;
 	return $result;
 }
-
-?> 
