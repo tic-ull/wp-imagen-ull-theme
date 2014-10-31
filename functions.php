@@ -430,3 +430,12 @@ add_action( 'shoestrap_pre_content', function() {
 		echo '<div class="row"><div class="col-md-12">' . $breadcrumbs . '</div></div>';
 	}
 });
+
+/*
+ * Soporte para el módulo 'comments' de Jetpack
+ * http://jetpack.me/support/comments/
+ */
+
+if( class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'comments' ) ) {
+	add_action( 'shoestrap_comments_override', 'comment_form' );
+}
