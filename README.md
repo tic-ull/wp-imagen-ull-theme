@@ -50,13 +50,10 @@ Bootstrap viene acompañado de la familia de iconos Glyphicon, mientras que el t
 
 ## Bugs
 
-Algunos dependencias se han instalado a partir de las versiones en su repositorio para parchearlos debido a bugs encontrados que aun no han sido resueltos por sus desarrolladores:
+A algunas de las dependencias del tema se les ha hecho un fork para parchearlos debido a bugs encontrados que aun no han sido resueltos por los desarrolladores. Las versiones instaladas de estos paquetes deben ser la rama <code>ull</code> de dichos repositorios alternativos:
  
- * [Shoestrap 3]
-    * [#591](https://github.com/shoestrap/shoestrap-3/issues/591): [parche](https://github.com/shoestrap/shoestrap-3/issues/591#issue-36818189)
-   
- * [Shoestrap Extra Pack]
-    * [#1](https://github.com/shoestrap/shoestrap-extras-pack/issues/1): [parche](https://github.com/shoestrap/shoestrap-extras-pack/issues/1#issuecomment-61642508)
+ * [Shoestrap 3] [repositorio](https://github.com/tic-ull/shoestrap-3/tree/ull)
+ * [Shoestrap Extra Pack] [repositorio](https://github.com/tic-ull/shoestrap-extras-pack/tree/ull)
 
 ## Contribuidores
 
