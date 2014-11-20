@@ -43,6 +43,7 @@ global $ss_framework;
 	<section id="respond">
 	<?php if (  class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'comments' ) ) : ?>
 		<?php comment_form(); ?>
+		<div style="height: 1.5em;"></div>
 	<?php else : ?>
 		<h3><?php comment_form_title(__('Leave a Reply', 'shoestrap'), __('Leave a Reply to %s', 'shoestrap')); ?></h3>
 		<p class="cancel-comment-reply"><?php cancel_comment_reply_link(); ?></p>
