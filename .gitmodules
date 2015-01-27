@@ -1,0 +1,3 @@
+[submodule "assets/js/infinite-scroll"]
+    path = assets/js/infinite-scroll
+    url = https://github.com/paulirish/infinite-scroll.git
