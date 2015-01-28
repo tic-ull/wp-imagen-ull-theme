@@ -8,15 +8,15 @@ Tema hijo de [Shoestrap 3] adaptado a la imagen corporativa de la Universidad de
 
 [Shoestrap 3] es un tema de Wordpress basado en Bootstrap que realmente está a caballo entre un tema de Wordpress y un framework de Bootstrap. Esto es así porque al tiempo que ofrece una amplia variedad de opciones para personalizar el tema desde la interfaz administrativa, también ofrece infinidad de *hooks* con los que personalizar con un tema hijo cualquier aspecto del tema, desde el valor de las opciones por defecto a las clases CSS utilizadas y el marcado HTML.
 
-Imagen ULL es un tema hijo de [Shoestrap 3] que personaliza lo necesario para ajustarse a la [Imagen corporativa de aplicaciones telemáticas ULL](http://static.ull.es/v3/docs/). En la actualidad no hay garantías de que este tema adapte todos los elementos posibles, sino sólo aquellos utilizados en la web de la [Oficina de Software Libre](http://osl.ull.es) (OSL) ya que son los únicos que se han probado. Sin embargo, para facilitar su reutilización en otros sitios web de la ULL, este tema no incorpora ninguna configuración que sea exclusiva de la web de la OSL. 
+Imagen ULL es un tema hijo de [Shoestrap 3] que personaliza lo necesario para ajustarse a la [Imagen corporativa de aplicaciones telemáticas ULL](http://static.ull.es/v3/docs/). En la actualidad no hay garantías de que este tema adapte todos los elementos posibles, sino sólo aquellos utilizados en la web de la [Oficina de Software Libre](http://osl.ull.es) (OSL) ya que son los únicos que se han probado. Sin embargo, para facilitar su reutilización en otros sitios web de la ULL, este tema no incorpora ninguna configuración que sea exclusiva de la web de la OSL.
 
-
-## Plugins adicionales
+## Dependencias y plugins adicionales
 
 A parte de la instalación de este tema y de su tema padre, se recomienda la instalación de una serie de plugins adicionales de los que depende parte de la funcionalidad ofrecida:
 
+ * [Shoestrap 3], como tema padre. Imagen ULL ha sido probado con éxito con versión 3.3.0 de [Shoestrap 3].
  * Wordpress SEO by Yoast, para las migas de pan
- * [Shoestrap Extra Pack], para poder ocultar el título, el autor, la categoría y las etiqueta de páginas y artículos.
+ * [Shoestrap Extra Pack], para poder ocultar el título, el autor, la categoría y las etiqueta de páginas y artículos. La última versión probada con éxito fue shoestrap/shoestrap-extras-pack@5b9765399802a0c49164b7f0bd5bbb7d48cace80.
  * Widget CSS Classes, para asignar iconos y propiedades a widgets y menús.
  * Jetpack por WordPress.com, para poder incorporar comentarios con autenticación mediante redes sociales.
  * Bootstrap 3 Shortcodes, para poder incorporar elementos de Bootstrap desde el editor en artículos y páginas.
@@ -47,13 +47,6 @@ Si se instala el plugin Jetpack y se activa el módulo *comments*, el tema hace 
 ## Iconos
 
 Bootstrap viene acompañado de la familia de iconos Glyphicon, mientras que el tema [Shoestrap 3] utiliza Elusive Icons. Para respetar la [Imagen corporativa de aplicaciones telemáticas ULL], este tema mapea todos los iconos usados (pero no todos los de dichas familias) a sus equivalentes de Font Awesome. Estos mapeos se definen en los archivos <code>assets/less/elusive.less</code> y <code>assets/less/glyphicon.less</code>, para Elusive Icons y Glyphicon respectivamente. Por tanto, si se quieren mapear otros iconos, es en esos archivos donde se deben incorporar dichos mapeos.
-
-## Bugs
-
-A algunas de las dependencias del tema se les ha hecho un fork para parchearlos debido a bugs encontrados que aun no han sido resueltos por los desarrolladores. Las versiones instaladas de estos paquetes deben ser la rama <code>ull</code> de dichos repositorios alternativos:
- 
- * [Repositorio ULL de Shoestrap 3](https://github.com/tic-ull/shoestrap-3/tree/ull)
- * [Repositorio ULL de Shoestrap Extra Pack](https://github.com/tic-ull/shoestrap-extras-pack/tree/ull)
 
 ## Contribuidores
 
