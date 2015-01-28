@@ -16,7 +16,7 @@ A parte de la instalación de este tema y de su tema padre, se recomienda la ins
 
  * [Shoestrap 3], como tema padre. Imagen ULL ha sido probado con éxito con versión 3.3.0 de [Shoestrap 3].
  * Wordpress SEO by Yoast, para las migas de pan
- * [Shoestrap Extra Pack], para poder ocultar el título, el autor, la categoría y las etiqueta de páginas y artículos. La última versión probada con éxito fue shoestrap/shoestrap-extras-pack@5b9765399802a0c49164b7f0bd5bbb7d48cace80.
+ * [Shoestrap Extra Pack], para poder ocultar el título, el autor, la categoría y las etiqueta de páginas y artículos. La última versión probada con éxito fue la del commit 5b9765399802a0c49164b7f0bd5bbb7d48cace80.
  * Widget CSS Classes, para asignar iconos y propiedades a widgets y menús.
  * Jetpack por WordPress.com, para poder incorporar comentarios con autenticación mediante redes sociales.
  * Bootstrap 3 Shortcodes, para poder incorporar elementos de Bootstrap desde el editor en artículos y páginas.
