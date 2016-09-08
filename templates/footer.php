@@ -5,7 +5,7 @@
 		echo $ss_framework->open_col( 'div', array( 'mobile' => 12 ) );?>
 
 		<ul class="address pull-left">
-			<li><strong>Universidad de La Laguna</strong><br/> Pabell&oacute;n de Gobierno, C/ Molinos de Agua s/n. | San Crist&oacute;bal de La Laguna, Santa Cruz de Tenerife - Espa&#241;a (38200) | Tel&eacute;fono: (+34) 922 31 90 00</li>
+			<li><strong>Universidad de La Laguna</strong><br/> Pabell&oacute;n de Gobierno, C/ Padre Herrera s/n. | 38200 | Apartado Postal 456 | San Crist&oacute;bal de La Laguna | Espa&#241;a | (+34) 922 31 90 00</li>
 		</ul>
 
 		<ul class="list-inline text-muted pull-right">
